@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:padding="8dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/android_development_with_internshala"
+        android:textColor="#FF9800"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:text="@string/android_is_fun"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@id/txtLayoutHeader"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtLayoutSubHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/tony_stark"
+        android:contentDescription="@string/_to" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:autofillHints="android"
+        android:textColor="#FF5722"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/etlastName"/>
+
+    <EditText
+        android:id="@+id/etlastName"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:background="#fff"
+        android:textColor="#FF5722"
+        android:hint="@string/last_name"
+        android:inputType="textPassword"
+        android:layout_above="@+id/etEmailId"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:background="#fff"
+        android:textColor="#FF5722"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_above="@+id/btnClichHere"/>
+
+    <EditText
+        android:id="@+id/etEmailId"
+
+        android:autofillHints="@string/enter_your_name"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:layout_above="@id/etPassword"
+        android:background="#fff"
+        android:textColor="#FF5722"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnClichHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/click_here"
+        android:background="#2196F3"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>

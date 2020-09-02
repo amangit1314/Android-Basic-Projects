@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutText2Tony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutTextTony"
+                android:layout_toEndOf="@+id/imgTonyStark"
+                android:padding="8dp"
+                android:text="@string/tony_stark_industries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderTony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText2Tony"
+                android:layout_toEndOf="@+id/imgTonyStark"
+                android:padding="8dp"
+                android:text="@string/_91_1111111111"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutTextTony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgTonyStark"
+                android:padding="8dp"
+                android:text="@string/tony_stark"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/tony_stark" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutSubHeaderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutName"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/imgSteveRoger"
+                android:padding="8dp"
+                android:text="@string/tony_stark_industries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutSubHeaderName"
+                android:layout_toEndOf="@+id/imgSteveRoger"
+                android:padding="8dp"
+                android:text="@string/_91_8654578911"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgSteveRoger"
+                android:padding="8dp"
+                android:text="@string/steve_rogers"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgSteveRoger"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/captain_america" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutText2Thor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText1Thor"
+                android:layout_toEndOf="@+id/imgThorOdinson"
+                android:padding="8dp"
+                android:text="@string/thor_starkindustries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText2Thor"
+                android:layout_toEndOf="@+id/imgThorOdinson"
+                android:padding="8dp"
+                android:text="@string/_91_1111111111"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutText1Thor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgThorOdinson"
+                android:padding="8dp"
+                android:text="@string/thor_odinson"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgThorOdinson"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/thor_odinson" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutText2BruceBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText1BruceBanner"
+                android:layout_toEndOf="@+id/imgDrBruceBanner"
+                android:padding="8dp"
+                android:text="@string/tony_stark_industries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderBruceBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText2BruceBanner"
+                android:layout_toEndOf="@+id/imgDrBruceBanner"
+                android:padding="8dp"
+                android:text="@string/_91_1111111111"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutText1BruceBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgDrBruceBanner"
+                android:padding="8dp"
+                android:text="@string/dr_bruce_banner"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgDrBruceBanner"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/hulk" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutText2TC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText1TC"
+                android:layout_toEndOf="@+id/imgTChalla"
+                android:padding="8dp"
+                android:text="@string/tony_stark_industries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText2TC"
+                android:layout_toEndOf="@+id/imgTChalla"
+                android:padding="8dp"
+                android:text="@string/_91_1111111111"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutText1TC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgTChalla"
+                android:padding="8dp"
+                android:text="@string/tchalla"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgTChalla"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/black_panther" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtLayoutText2NR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText1NR"
+                android:layout_toEndOf="@+id/imgNatashaRomanova"
+                android:padding="8dp"
+                android:text="@string/tony_stark_industries_com"
+                android:textColor="#060007"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutSubSubHeaderNR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLayoutText2NR"
+                android:layout_toEndOf="@+id/imgNatashaRomanova"
+                android:padding="8dp"
+                android:text="@string/_91_1111111111"
+                android:textColor="#000D0C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLayoutText1NR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/imgNatashaRomanova"
+                android:padding="8dp"
+                android:text="@string/natasha_romanova"
+                android:textColor="#121212"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgNatashaRomanova"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/_to"
+                android:src="@drawable/natasha" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

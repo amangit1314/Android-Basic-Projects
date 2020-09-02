@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="Aman_Soni.com.practiceapp.LoginActivity">
+    
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pokemon_logo_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ttt" />
+    
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/imgLogo"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1" 
+        android:hint="@string/enter_your_mobile_number"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/etMobileNumber"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:maxLines="1" 
+        android:hint="@string/enter_your_password"
+        android:autofillHints="Password" />
+    
+    <Button
+        android:id="@+id/btLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@id/etPassword"
+        android:background="#F4C93C"
+        android:text="@string/log_in"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:text="@string/forgot_password"
+        android:layout_below="@+id/btLogIn"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="@string/register_yourself"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>
